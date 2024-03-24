@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 5px 0;
+  background-color: rgba(215, 211, 211, 0.688);
+  align-items: center;
+  text-align: center;
+  z-index: 100;
+}
+
+.navbar {
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.imgLogo {
+  width: 100px;
+}
+
+ul {
+  width: 100%;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav ul li {
+  display: inline;
+  margin: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #264656;
+  font-weight: bold;
+}
+
+.welcome {
+  text-align: center;
+  padding: 60px;
+  background-image: url(Ballonn.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.welcomeText {
+  border: 1px solid black;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #92d25a25;
+}
+
+.Reason {
+  margin: 10px;
+}
+
+#submit {
+  background-color: rgb(101, 193, 219);
+  border: 1px solid rgba(148, 123, 95, 0.997);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.main {
+  text-align: center;
+  display: block;
+}
+
+.cards {
+  width: 20%;
+  display: inline-block;
+  margin: 30px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+h3 > .cards {
+}
+
+.cards img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contactCard {
+  background-color: saddlebrown;
+  text-decoration: none;
+}
+
+.contactCard {
+  background-color: rgb(101, 193, 219);
+  border: 1px solid rgba(148, 123, 95, 0.997);
+  font-size: 15px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.subscribe {
+  background-color: rgb(90, 186, 250);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.subscribe h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.subscribe p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.subscribe form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe input{
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  margin: 0;
+  font-size: 16px;
+}
+
+.subscribe button{
+  background-color:#F05A28;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  }
+
+  footer{
+    background-color: #333333;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+  }
+
+

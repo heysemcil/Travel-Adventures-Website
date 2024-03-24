@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clarusway Travel</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="#"
+          ><img class="imgLogo" src="CLARUSWAY.png" alt="ClaruswayLogo"
+        /></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="welcome">
+      <div class="welcomeText">
+        <h1>Welcome to Our Journey!</h1>
+        <p>Give us your information, and we'll call you.</p>
+        <div>
+          <form action="#">
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            />
+            <br />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="E-mail"
+              required
+            />
+            <br />
+            <input
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder="Phone Number"
+            />
+            <br />
+
+            <select class="Reason" name="Reason">
+              <option value="Travel">Travel</option>
+              <option value="Tour" selected>Tour</option>
+              <option value="Transportation">Transportation</option>
+              <option value="Accomodation">Accomodation</option>
+              <option value="Career">Career</option>
+            </select>
+            <br />
+            <input type="submit"
+             id="submit">
+            
+            
+        </div>
+      </div>
+    </section>
+
+    <section class="main">
+        <h2>Upcoming Events</h2>
+        <div class="cards">
+            <img src="https://cdn.pixabay.com/photo/2016/02/29/06/43/cancun-1228131_1280.jpg" alt="Mexico">
+            <h3>Cancun/Mexico</h3>
+            <p>Cancun is known as a tourist paradise and a popular holiday destination. </p>
+            <button class="contactCard">
+                Contact Us Now!
+            </button>
+            
+        </div>
+        <div class="cards">
+            
+            <img src="https://cdn.pixabay.com/photo/2018/04/25/09/26/eiffel-tower-3349075_1280.jpg" alt="Mexico">
+            <h3>Paris/France</h3>
+            <p>Paris is the capital city known for its romance, art, and cultural significance worldwide.</p>
+            <button class="contactCard">
+                Contact Us Now!
+            </button>
+        </div>
+        <div class="cards">
+            
+            <img src="https://cdn.pixabay.com/photo/2020/01/25/18/20/sicily-4793099_1280.jpg" alt="Mexico">
+            <h3>Sicily/Italy</h3>
+            <p>Sicily is renowned for its stunning landscapes, rich history, and delicious cuisine.</p>
+            <button class="contactCard">
+                Contact Us Now!
+            </button>
+        </div>
+
+
+
+    </section>
+
+    <section class="subscribe">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Stay updated with our latest travel offers and news.</p>
+        <form>
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>All rights reserved by Clarusway &copy;</p>
+    </footer>
+  </body>
+</html>
